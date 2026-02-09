@@ -1,0 +1,39 @@
+{
+  "admin_password": "ChangeMe123",
+  "site_title": "Super Bowl Pool",
+  "price_per_square": "20",
+  "currency_symbol": "$",
+  "beneficiary_name": "Local Charity",
+  "contact_email": "you@example.com",
+  "rules": {
+    "draw": "We will lock the pool on the Saturday before the Super Bowl (or when sold out). Once locked, numbers are assigned randomly to the rows and columns.",
+    "randomness": "Numbers are generated with a secure random shuffle at lock time.",
+    "pot": "The Total Pot is calculated based on the number of squares sold.",
+    "fundSplit": [
+      "50% goes directly to the fundraiser.",
+      "50% goes into the Prize Pool for the winners."
+    ],
+    "payoutIntro": "The Prize Pool is split across the four quarters. If your numbers match the score:",
+    "payouts": {
+      "q1": "12.5% of Prize Pool",
+      "half": "25% of Prize Pool",
+      "q3": "12.5% of Prize Pool",
+      "final": "50% of Prize Pool"
+    },
+    "deadSquareTitle": "The \"Dead Square\" Rule",
+    "deadSquareText": "If the winning square for a quarter was not purchased, that prize money will be donated to the fundraiser."
+  },
+  "teams": {
+    "nfc": "NFC",
+    "afc": "AFC"
+  },
+  "payments": {
+    "links": [
+      { "label": "Venmo", "url": "https://venmo.com/YourName", "style": "venmo" },
+      { "label": "PayPal", "url": "https://paypal.me/YourName", "style": "paypal" },
+      { "label": "Cash App", "url": "https://cash.app/$YourTag", "style": "cashapp" },
+      { "label": "Zelle", "url": "mailto:you@example.com?subject=Pool%20Payment", "style": "zelle" }
+    ],
+    "notes": "If you pay by cash or check, please contact the organizer."
+  }
+}

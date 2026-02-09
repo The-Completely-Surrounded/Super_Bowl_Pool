@@ -1,0 +1,9 @@
+# Backups and staging
+_archive/
+upload_to_server/
+
+# Dependencies
+**/node_modules/
+
+# OS files
+.DS_Store

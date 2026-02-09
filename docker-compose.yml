@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: super_bowl_pool
+    ports:
+      - "3000:3001"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - ADMIN_PASSWORD=ChangeMePlease
+    restart: unless-stopped

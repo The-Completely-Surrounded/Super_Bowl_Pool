@@ -1,0 +1,41 @@
+export const TEAMS = {
+    "Cardinals": { primary: "#97233F", accent: "#000000", emoji: "🪶" },
+    "Falcons": { primary: "#A71930", accent: "#000000", emoji: "🦅" },
+    "Ravens": { primary: "#241773", accent: "#9E7C0C", emoji: "🪶" },
+    "Bills": { primary: "#00338D", accent: "#C60C30", emoji: "🦬" },
+    "Panthers": { primary: "#0085CA", accent: "#101820", emoji: "🐆" },
+    "Bears": { primary: "#0B162A", accent: "#C83803", emoji: "🐻" },
+    "Bengals": { primary: "#FB4F14", accent: "#000000", emoji: "🐅" },
+    "Browns": { primary: "#311D00", accent: "#FF3C00", emoji: "🟤" },
+    "Cowboys": { primary: "#002244", accent: "#869397", emoji: "🤠" },
+    "Broncos": { primary: "#FB4F14", accent: "#002244", emoji: "🐴" },
+    "Lions": { primary: "#0076B6", accent: "#B0B7BC", emoji: "🦁" },
+    "Packers": { primary: "#203731", accent: "#FFB612", emoji: "🧀" },
+    "Texans": { primary: "#03202F", accent: "#A71930", emoji: "🤠" },
+    "Colts": { primary: "#002C5F", accent: "#A2AAAD", emoji: "🐎" },
+    "Jaguars": { primary: "#006778", accent: "#D7A22A", emoji: "🐆" },
+    "Chiefs": { primary: "#E31837", accent: "#FFB81C", emoji: "🪶" },
+    "Raiders": { primary: "#000000", accent: "#A5ACAF", emoji: "🏴‍☠️" },
+    "Chargers": { primary: "#0080C6", accent: "#FFC20E", emoji: "⚡" },
+    "Rams": { primary: "#003594", accent: "#FFA300", emoji: "🐏" },
+    "Dolphins": { primary: "#008E97", accent: "#FC4C02", emoji: "🐬" },
+    "Vikings": { primary: "#4F2683", accent: "#FFC62F", emoji: "🛡️" },
+    "Patriots": { primary: "#002244", accent: "#C60C30", emoji: "🇺🇸" },
+    "Saints": { primary: "#D3BC8D", accent: "#101820", emoji: "⚜️" },
+    "Giants": { primary: "#0B2265", accent: "#A71930", emoji: "🏙️" },
+    "Jets": { primary: "#125740", accent: "#FFFFFF", emoji: "✈️" },
+    "Eagles": { primary: "#004C54", accent: "#A5ACAF", emoji: "🦅" },
+    "Steelers": { primary: "#101820", accent: "#FFB612", emoji: "🛠️" },
+    "49ers": { primary: "#AA0000", accent: "#B3995D", emoji: "⛏️" },
+    "Seahawks": { primary: "#002244", accent: "#69BE28", emoji: "🦅" },
+    "Buccaneers": { primary: "#D50A0A", accent: "#FF7900", emoji: "🏴‍☠️" },
+    "Titans": { primary: "#0C2340", accent: "#4B92DB", emoji: "⚔️" },
+    "Commanders": { primary: "#5A1414", accent: "#FFB612", emoji: "🪖" }
+};
+
+export const QUARTERS = [
+    { key: 'q1', label: 'Q1' },
+    { key: 'half', label: 'Halftime' },
+    { key: 'q3', label: 'Q3' },
+    { key: 'final', label: 'Final' }
+];

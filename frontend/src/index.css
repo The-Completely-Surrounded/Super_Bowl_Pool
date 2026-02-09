@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.square-available {
+  @apply bg-gray-200 hover:bg-gray-300 cursor-pointer;
+}
+
+.square-pending {
+  @apply bg-yellow-200 cursor-not-allowed;
+}
+
+.square-confirmed {
+  @apply bg-green-500 text-white cursor-not-allowed;
+}
+
+@media print {
+  @page {
+    margin: 0.2cm;
+    size: landscape;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    zoom: 0.48;
+  }
+
+  /* Ensure background colors print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-single-page {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .print-compact {
+    gap: 0.2rem !important;
+    margin-bottom: 0.2rem !important;
+  }
+
+  .print-single-page h1 {
+    margin-top: 0 !important;
+    margin-bottom: 0.25rem !important;
+    font-size: 18px !important;
+  }
+
+  .print-grid {
+    margin: 0 auto !important;
+    transform: scale(0.9);
+    transform-origin: top center;
+  }
+}
